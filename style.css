@@ -1,0 +1,517 @@
+/*.cursor {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 99999;
+  
+}*/
+
+
+
+
+/*.background {
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(circle farthest-corner at 5% 5%, white, white, #FFCBC9, #FF9893, #FF9893, #FF9893);
+
+
+}*/
+
+
+
+
+
+
+/*.black {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0;
+}
+.active {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 1;
+    transition: all 4s ease-in;
+}
+
+
+.img1 {
+    width: 50%;
+    position: absolute;
+    left: 45%;
+    top: 10%;
+}
+
+.img2 {
+    width: 35%;
+    position: absolute;
+    left: 7%;
+    top: 10%;   
+}
+
+.img3 {
+    width: 98%;
+    position: absolute;
+    top: 0;
+    left: 1%;
+
+
+}
+
+.circle {
+    position: absolute;
+    width: 650px;
+    height: 650px;
+    border-radius: 50%;
+    background-color: black;
+    z-index: 1;
+    left: 54.5%;
+    top: 18.5%;
+    opacity: 0;
+}
+
+.musicbox {
+    position: absolute;
+    top: 0;
+    opacity: 0;
+}
+*/
+
+
+
+
+
+
+
+/*---------------------------------------------------------------------------------------------------------------*/
+
+
+/*배경(검정)*/
+.background {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+
+
+/*마우스 커서*/
+* {
+    cursor: url(snowflake.cur), auto;
+    cursor: -webkit-image-set(url(snowflake.cur) 1x, url(snowflake.cur) 2x), auto;
+ }
+ 
+ * a:hover,
+ * a:hover * {
+    cursor: url(snowflake.cur), auto;
+    cursor: -webkit-image-set(url(snowflake.cur) 1x, url(snowflake.cur) 2x), auto;
+ }
+ 
+ body {
+    background: #ddd;
+ }
+ 
+ #wrap a {
+    display: inline-block;
+    background-color: #ffffff;
+    padding: 20px 50px;
+ }
+
+ .flower1 {
+    fill: #FFFFFF;
+}
+
+
+   
+
+
+.flower1 {
+    position: absolute;
+    top: 85%;
+    left: 80%;
+    animation-name: updown;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+
+
+@keyframes updown {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(10px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.title {
+    fill: white;
+    position: absolute;
+    top: 13%;
+    left: 15%;
+    animation-name: blur;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+
+}
+@keyframes blur {
+    0% {
+        filter: blur(100px);
+    }
+    100% {
+        filter: blur(0px);
+    }
+}
+
+.circle {
+    fill: none;
+    stroke: #FFFFFF;
+    stroke-miterlimit: 10;
+    position: absolute;
+    top: 30%;
+    left: 55%;
+
+}
+
+.circle:hover {
+    transform: scale(1.5,1.5);
+    transition-timing-function: ease-in-out;
+    transition-duration: 1s;
+    
+}
+
+.disap {
+    opacity: 0;
+    transition-duration: 1s;
+}
+
+.flower2 {
+    fill: white;
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    animation-name: updown;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes updown {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(10px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+.disap2 {
+    opacity: 0;
+    transition-duration: 5s;
+}
+
+.flower3 {
+    fill: white;
+    position: absolute;
+    top: 70%;
+    left: 40%;
+    animation-name: updown;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes updown {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(10px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+.disap3 {
+    opacity: 0;
+    transition-duration: 3s;
+}
+
+.flower4 {
+    fill: white;
+    position: absolute;
+    top: 60%;
+    left: 5%;
+    animation-name: updown;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes updown {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(10px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+.disap4 {
+    opacity: 0;
+    transition-duration: 2s;
+}
+
+.flower5 {
+    fill: white;
+    position: absolute;
+    top: 20%;
+    left: 90%;
+    animation-name: updown;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes updown {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(10px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+.disap5 {
+    opacity: 0;
+    transition-duration: 2s;
+}
+
+
+
+   
+
+
+.flower6 {
+    fill: #FFFFFF;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    animation-name: updown;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes updown {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(10px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+.disap6 {
+    opacity: 0;
+    transition-duration: 2s;
+}
+
+.flower7 {
+    fill: white;
+    position: absolute;
+    top: 5%;
+    left: 65%;
+    animation-name: updown;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes updown {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(10px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+.disap7 {
+    opacity: 0;
+    transition-duration: 3s;
+}
+.img {
+    width: 80%;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    opacity: 0;
+
+}
+.imgcome {
+    opacity: 0.7;
+    transition-duration: 7s;
+}
+
+.flower8 {
+    fill: white;
+    position: absolute;
+    top: 15%;
+    left: 40%;
+    animation-name: updown;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    filter: blur(1.5px);
+}
+@keyframes updown {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(10px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+.disap8 {
+    opacity: 0;
+    transition-duration: 5s;
+}
+
+.flower9 {
+    fill: white;
+    position: absolute;
+    top: 80%;
+    left: 25%;
+    animation-name: updown;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    filter: blur(1.5px);
+}
+
+@keyframes updown {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(10px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+.disap9 {
+    opacity: 0;
+    transition-duration: 5s;
+}
+.flower10 {
+    fill: white;
+    position: absolute;
+    top: 60%;
+    left: 95%;
+    animation-name: updown;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    filter: blur(1px);
+}
+@keyframes updown {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(10px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+.disap10 {
+    opacity: 0;
+    transition-duration: 5s;
+}
+
+.director {
+    position: absolute;
+    top: 80%;
+    left: 20%;
+    fill: white;
+}
+
+.actor {
+    position: absolute;
+    fill: white;
+    top: 80%;
+    right: 18%;
+}
+
+.lung1 {
+    stroke: #FFFFFF;
+    stroke-width: 2;
+    stroke-miterlimit: 10;
+    position: absolute;
+    top: 30%;
+    left: 40%;
+}
+
+.lung2 {
+    stroke: #FFFFFF;
+    stroke-miterlimit: 10;
+    position: absolute;
+    top: 30%;
+}
+.color {
+    display: inline-block;
+    position: absolute;
+    width: 30%;
+    top: 15%;
+    left: 14%;
+}
+.disap11 {
+    opacity: 0;
+    transition-duration: 1s;
+}
+
+.white_title {
+    display: inline-block;
+    position: absolute;
+    width: 30%;
+    top: 17.1%;
+    left: 13.9%;
+    opacity: 0;
+    filter: grayscale(10%);
+
+}
+
+.white_come {
+    opacity: 1;
+    transition-duration: 3s;
+}
+
+.black_title {
+    display: inline-block;
+    position: absolute;
+    width: 30%;
+    top: 17.1%;
+    left: 13.9%;
+    opacity: 0;
+
+
+}
+.black_come {
+    opacity: 1;
+    transition-duration: 2s;
+}
+.boyandgirl {
+    fill: none;
+    stroke: #FFFFFF;
+    stroke-miterlimit: 10;
+    stroke-width: 1.5px;
+    position: absolute;
+    top: 30%;
+    left: 35%;
+}    
